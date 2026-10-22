@@ -1,0 +1,45 @@
+/* Gerado à mão a partir de tokens.json do design system "Portfólio djotanas".
+   Mudou o design system? Atualize aqui com os mesmos nomes. */
+:root {
+  /* Cor (tema único: Terminal) */
+  --bg-base: #010a04;
+  --bg-glow: #0a3a1a;
+  --surface-1: #07140b;
+  --surface-2: #0c1f12;
+  --border-subtle: #173322;
+  --border-strong: #3a6e4a;
+  --text-primary: #e2ffe9;
+  --text-secondary: #9fe8b4;
+  --text-label: #a8ffc2;
+  --text-code: #c4f7d2;
+  --text-muted: #6f9c7e;
+  --accent: #00ff41;
+  --on-accent: var(--bg-base);
+  --focus-ring: var(--accent);
+
+  /* Tipografia */
+  --font-sans: "IBM Plex Sans", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+
+  /* Espaço */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-16: 64px;
+  --space-24: 96px;
+
+  /* Forma */
+  --radius-sm: 2px;
+  --radius-md: 8px;
+  --radius-lg: 28px;
+
+  /* Sombra */
+  --shadow-glow: 0 0 16px rgba(0, 255, 65, 0.45);
+  --shadow-device: 0 40px 80px rgba(0, 0, 0, 0.6);
+
+  /* Movimento */
+  --dur-hover: 150ms;
+}
