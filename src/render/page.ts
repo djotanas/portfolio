@@ -60,6 +60,7 @@ const status = (c: SiteContent) => `
 
 const hero = (c: SiteContent) => `
 <section class="hero" aria-labelledby="hero-title">
+  <div class="hero-rain" aria-hidden="true"><canvas></canvas></div>
   <div class="container hero-grid">
     <div class="hero-text">
       <h1 id="hero-title"><span class="eyebrow">${esc(c.hero.eyebrow)}</span> <span class="display-xl">${esc(c.person.name)}</span></h1>

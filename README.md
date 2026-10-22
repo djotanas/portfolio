@@ -1,6 +1,6 @@
 # jonatassennas.com.br
 
-Portfólio de Jonatas Sennas. Vite, HTML gerado no build, sem framework e sem JavaScript no cliente.
+Portfólio de Jonatas Sennas. Vite, HTML gerado no build e sem framework. O único JavaScript no cliente é o fundo animado do hero, que carrega depois da página.
 
 ## Rodando
 
@@ -22,6 +22,7 @@ npm run og        # regenera public/og.png (precisa de Python + Playwright)
 | `src/render/` | Funções que transformam o conteúdo em HTML, `<head>`, JSON-LD e `llms.txt`. |
 | `src/styles/tokens.css` | Tokens do design system "Portfólio djotanas". |
 | `src/styles/main.css` | Estilos dos componentes. |
+| `src/hero-rain.ts` | Fundo do hero: caracteres caindo que se afastam do mouse. Pausa fora da tela e respeita `prefers-reduced-motion`. |
 | `vite.config.ts` | Plugin `static-site`: injeta o HTML, gera `sitemap.xml`, `robots.txt` e `llms.txt`, e coloca o CSS inline. |
 | `scripts/og.*` | Gera a imagem de compartilhamento (1200×630). |
 

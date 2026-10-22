@@ -119,7 +119,7 @@ const content: SiteContent = {
     iconAlt: "Ícone do Jotline",
     paragraphs: [
       "O Jotline é um app mobile de notas organizado em cadernos. A proposta é funcionar inteiro sem internet e sincronizar sozinho quando a conexão volta: o aparelho é a fonte da verdade para quem escreve, e a nuvem serve de backup e de ponte entre dispositivos.",
-      "O projeto está na fase 1, um app local sem conta e sem servidor, com cadernos, páginas, editor de blocos e lixeira sobre SQLite. As próximas fases preveem conta e sincronização entre aparelhos, e depois compartilhamento com papéis e histórico de versões.",
+      "O projeto está na fase 1, um app local sem conta e sem servidor, com cadernos, páginas, editor de blocos e lixeira sobre SQLite. As próximas fases preveem conta e sincronização entre aparelhos e, depois, compartilhamento com papéis e histórico de versões.",
       "Registro cada decisão de arquitetura em ADRs no repositório (37 até agora), da escolha do SQLite local ao modelo de blocos do editor.",
     ],
     stackNow: ["Flutter", "Dart", "Riverpod", "Drift", "SQLite"],
