@@ -62,8 +62,7 @@ const hero = (c: SiteContent) => `
 <section class="hero" aria-labelledby="hero-title">
   <div class="container hero-grid">
     <div class="hero-text">
-      <p class="eyebrow">${esc(c.hero.eyebrow)}</p>
-      <h1 id="hero-title" class="display-xl">${esc(c.person.name)}</h1>
+      <h1 id="hero-title"><span class="eyebrow">${esc(c.hero.eyebrow)}</span> <span class="display-xl">${esc(c.person.name)}</span></h1>
       <p class="hero-stack">${stackLine(c.hero.stack)}</p>
       <p class="lead">${esc(c.hero.lead)}</p>
       <p class="hero-intro">${esc(c.hero.intro)}</p>
@@ -187,7 +186,7 @@ const contact = (c: SiteContent) => {
     <div>
       ${sectionHead("contato", c.contact.eyebrow, c.contact.heading)}
       <p class="lead contact-text">${esc(c.contact.text)}</p>
-      <a class="btn btn-primary" href="mailto:${p.email}">${esc(p.email)}</a>
+      <a class="btn btn-primary" href="mailto:${p.email}">${esc(c.contact.button)}</a>
     </div>
     <address class="contact-list">
       <dl>

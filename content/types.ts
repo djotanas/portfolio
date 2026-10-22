@@ -115,6 +115,7 @@ export interface SiteContent {
     eyebrow: string;
     heading: string;
     text: string;
+    button: string;
     labels: { email: string; phone: string; linkedin: string; github: string; location: string };
   };
   footer: {

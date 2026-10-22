@@ -11,7 +11,7 @@ const content: SiteContent = {
   meta: {
     title: "Jonatas Sennas | Desenvolvedor Fullstack Flutter e .NET",
     description:
-      "Desenvolvedor fullstack pleno no Rio de Janeiro. Construo apps em Flutter, APIs em C#/.NET e interfaces em React. Veja experiência, projetos e contato.",
+      "Desenvolvedor fullstack pleno no Rio de Janeiro. Construo apps em Flutter, APIs em C#/.NET e interfaces em React. Veja experiência, projeto pessoal e contato.",
     ogImageAlt: "Jonatas Sennas, desenvolvedor fullstack pleno: Flutter, C#/.NET e React",
   },
 
@@ -54,13 +54,13 @@ const content: SiteContent = {
     stack: ["Flutter", "C#/.NET", "React"],
     lead: "Soluções completas, da tela à API.",
     intro:
-      "Trabalho com Flutter, Dart e C#/.NET, e isso me permite entender o produto de ponta a ponta, do app ao serviço que o sustenta. Hoje sou desenvolvedor fullstack na Aride e, como voluntário, desenvolvo o app da Associação Mama Thula.",
+      "Como trabalho com Flutter, Dart e C#/.NET, entendo o produto de ponta a ponta, do app ao serviço que o sustenta. Hoje sou desenvolvedor fullstack na Aride e, como voluntário, desenvolvo o app da Associação Mama Thula.",
     cta: { label: "Entrar em contato", href: "#contato" },
   },
 
   experience: {
     eyebrow: "01 / Experiência",
-    heading: "Experiência profissional",
+    heading: "Experiência como desenvolvedor fullstack, mobile Flutter e backend .NET",
     items: [
       {
         company: "Aride Brasil",
@@ -100,7 +100,7 @@ const content: SiteContent = {
           "Ajudei a construir e manter o Saúde 24h, app em Flutter que apoia a operação de telemedicina da empresa, com arquitetura mobile modular integrada aos serviços em .NET.",
         highlights: [
           "Desenvolvi e mantive integrações em tempo real entre Flutter e .NET, com Server-Sent Events e Firebase Cloud Messaging, que reduziram de forma consistente o não comparecimento de pacientes às consultas.",
-          "Implementei uma API em tempo real com WebSockets e SignalR para a comunicação entre paciente e enfermeiro. O canal substituiu as videochamadas e simplificou o atendimento com menor custo operacional.",
+          "Implementei uma API em tempo real com WebSockets e SignalR para a comunicação entre paciente e enfermeiro. O canal substituiu videochamadas e simplificou o atendimento com menor custo operacional.",
           "Configurei pipelines de CI/CD no Azure DevOps, o que deixou as entregas em produção e homologação mais rápidas e confiáveis.",
           "Criei dashboards no Grafana para monitorar as APIs REST e os WebSockets, acelerando a identificação de problemas em produção.",
           "Implementei padrões de Clean Architecture para reduzir o acoplamento do código.",
@@ -118,9 +118,9 @@ const content: SiteContent = {
     heading: "Jotline, app de notas offline-first",
     iconAlt: "Ícone do Jotline",
     paragraphs: [
-      "O Jotline é um app mobile de notas organizado em cadernos. Funciona inteiro sem internet e sincroniza sozinho quando a conexão volta: o aparelho é a fonte da verdade para quem escreve, e a nuvem serve de backup e de ponte entre dispositivos.",
-      "O projeto está na fase 1, um app local sem conta e sem servidor, com cadernos, páginas, editor de blocos e lixeira sobre SQLite. As fases seguintes trazem conta e sincronização entre aparelhos, e depois compartilhamento com papéis e histórico de versões.",
-      "Registro cada decisão de arquitetura em ADRs no repositório, da escolha do SQLite local ao modelo de blocos do editor.",
+      "O Jotline é um app mobile de notas organizado em cadernos. A proposta é funcionar inteiro sem internet e sincronizar sozinho quando a conexão volta: o aparelho é a fonte da verdade para quem escreve, e a nuvem serve de backup e de ponte entre dispositivos.",
+      "O projeto está na fase 1, um app local sem conta e sem servidor, com cadernos, páginas, editor de blocos e lixeira sobre SQLite. As próximas fases preveem conta e sincronização entre aparelhos, e depois compartilhamento com papéis e histórico de versões.",
+      "Registro cada decisão de arquitetura em ADRs no repositório (37 até agora), da escolha do SQLite local ao modelo de blocos do editor.",
     ],
     stackNow: ["Flutter", "Dart", "Riverpod", "Drift", "SQLite"],
     stackPlanned: ["ASP.NET Core 10", "EF Core 10", "Postgres", "Supabase", "PowerSync"],
@@ -174,7 +174,8 @@ const content: SiteContent = {
   contact: {
     eyebrow: "04 / Contato",
     heading: "Contato",
-    text: "Estou trabalhando na Aride e aberto a conversar sobre novas oportunidades.",
+    text: "Aberto a conversar sobre novas oportunidades.",
+    button: "Enviar e-mail",
     labels: { email: "E-mail", phone: "Telefone", linkedin: "LinkedIn", github: "GitHub", location: "Local" },
   },
 

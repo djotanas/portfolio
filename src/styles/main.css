@@ -364,8 +364,12 @@ address {
   align-items: center;
 }
 
-.hero-text > .display-xl {
+#hero-title {
   margin-bottom: var(--space-3);
+}
+
+#hero-title > span {
+  display: block;
 }
 
 .hero-stack {
