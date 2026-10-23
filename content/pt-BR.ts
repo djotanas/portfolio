@@ -132,7 +132,7 @@ const content: SiteContent = {
     heading: "Da farmácia ao desenvolvimento",
     paragraphs: [
       "Comecei na tecnologia com o técnico em Informática do Cefet/RJ. Depois cursei Farmácia na UFRRJ e, em 2022, mudei de carreira para o desenvolvimento de software com a formação em Engenharia de Software da Driven. Hoje curso Tecnologia em Sistemas de Computação na UFF.",
-      "Participo da comunidade Tech Leads Club, onde estudo desenvolvimento assistido por IA, acompanho workshops e faço parte do clube do livro, que agora lê Software Architecture: The Hard Parts. No médio prazo, quero chegar à liderança técnica: sempre gostei de mentorar pessoas e de compartilhar o que aprendo.",
+      "Participo da comunidade Tech Leads Club, onde estudo desenvolvimento assistido por IA, acompanho workshops e faço parte do clube do livro. No médio prazo, quero chegar à liderança técnica: sempre gostei de mentorar pessoas e de compartilhar o que aprendo.",
     ],
     educationHeading: "Formação",
     education: [
